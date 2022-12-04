@@ -1,0 +1,75 @@
+body{
+    width:1000px;
+    text-align: center;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin:0 auto;
+    background-image: url(https://wallpaperaccess.com/full/847699.jpg);
+}
+fieldset{
+    border: none;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+label{
+    display:block;
+    width:100%;
+    padding:0.5rem;
+}
+input[name="submit"]{
+  padding-top:7px;
+  display: block;
+  width: 50%;
+  height: 2em;
+  font-size: 1.0rem;
+  border:1px solid gray;
+  border-radius: 10px;
+  min-width: 200px;
+  margin-left:133px;
+  margin-right:auto;
+  background:white;
+  margin-bottom:10px;
+}
+fieldset:last-of-type{
+    border:none;
+}
+a:visited{
+    color:gray;
+
+}
+a:active{
+    color:black;
+}
+a:hover{
+    color:blanchedalmond;
+}
+a:link{
+    color:black
+}
+textarea{
+    display:block;
+    width: 40%;
+    height:50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+input[type="number"]{
+    width:70px;
+    margin-right:100px;
+}
+input{
+    padding:10px;
+    border:1px solid gray;
+    border-radius: 10px;
+}
+.form{
+    width:500px;
+    margin:auto;
+    background-color:rgba(60, 60, 60, 0.5);
+    border-radius:12px;
+    padding-bottom:5px;
+}
+.title{
+    padding-top:10px;
+}
