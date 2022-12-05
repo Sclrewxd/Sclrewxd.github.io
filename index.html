@@ -8,33 +8,35 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="form">
-        <h1 id="title" class="title">Fill the form</h1>
-        <p id="description">Thank you for taking the time to help us improve the platform</p>
-        <form id="survey-form" action="https://vwo.com/blog/thank-you-page-examples/">
+    <div class="background-image">
+        <div class="form">
+            <h1 id="title" class="title">Fill the form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+            <form id="survey-form" action="https://vwo.com/blog/thank-you-page-examples/">
+                <fieldset>
+            <label for="name-label">What's your name: <input id="name" type="text" placeholder="Your name."required></label>
+            <label for="email-label">What's your email: <input id="email" type="email" placeholder="Your email."required></label>
+            <label for="number-label">What's your age: <input id="number" type="number" min=18 max=40 placeholder="Your age." required></label>
+            </fieldset>
             <fieldset>
-        <label for="name-label">What's your name: <input id="name" type="text" placeholder="Your name."required></label>
-        <label for="email-label">What's your email: <input id="email" type="email" placeholder="Your email."required></label>
-        <label for="number-label">What's your age: <input id="number" type="number" min=18 max=40 placeholder="Your age." required></label>
-        </fieldset>
-        <fieldset>
-        <label>How did you find this website?
-            <select id="dropdown" required>
-            <option value=1>By a friend.</option>
-            <option value=2>By a family member.</option>
-        </select>
-        </label>
-        </fieldset>
-        <fieldset>
-            <label for="terms-and-conditions"><input type="checkbox" name="terms-and-conditions" required>Agree to our<a href="https://vwo.com/blog/thank-you-page-examples/" alt="thank-you-page" target="_blank"> terms and conditions</a>.</label>
-        </fieldset>
-        <fieldset>
-        <label>Tell us something about yourself:
-            <textarea rows=2 cols=10></textarea>
-        </label>
-        </fieldset>
-        <input name="submit" type="submit" value="Click here to submit the form!" onclick="alert('Thank you for your time!');">
-        </form>
+            <label>How did you find this website?
+                <select id="dropdown" required>
+                <option value=1>By a friend.</option>
+                <option value=2>By a family member.</option>
+            </select>
+            </label>
+            </fieldset>
+            <fieldset>
+                <label for="terms-and-conditions"><input type="checkbox" name="terms-and-conditions" required>Agree to our<a href="https://vwo.com/blog/thank-you-page-examples/" alt="thank-you-page" target="_blank"> terms and conditions</a>.</label>
+            </fieldset>
+            <fieldset>
+            <label>Tell us something about yourself:
+                <textarea rows=2 cols=10></textarea>
+            </label>
+            </fieldset>
+            <input name="submit" type="submit" value="Click here to submit the form!" onclick="alert('Thank you for your time!');">
+            </form>
+        </div>
     </div>
 </body>
 </html>

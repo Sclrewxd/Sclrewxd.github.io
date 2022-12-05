@@ -1,14 +1,15 @@
 *{
     text-decoration:none;
-}
-body{
-    text-align: center;
-    color:white;
+    text-align:center;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     margin:0 auto;
+}
+.background-image{
     background-image: url(sea.jpg);
     background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
 }
 fieldset{
     border: none;
@@ -31,7 +32,7 @@ input[name="submit"]{
   min-width: 200px;
   margin-left:133px;
   margin-right:auto;
-  background:white;
+  background:cyan;
   margin-bottom:10px;
 }
 fieldset:last-of-type{
@@ -58,8 +59,7 @@ textarea{
     margin-right:auto;
 }
 input[type="number"]{
-    width:70px;
-    margin-right:100px;
+    width:20%;
 }
 input{
     padding:10px;
