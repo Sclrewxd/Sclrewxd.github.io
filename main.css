@@ -1,3 +1,6 @@
+*{
+    text-decoration:none;
+}
 body{
     width:1000px;
     text-align: center;
@@ -5,7 +8,8 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     margin:0 auto;
-    background-image: url(https://wallpaperaccess.com/full/847699.jpg);
+    background-image: url(sea.jpg);
+    background-size:100%;
 }
 fieldset{
     border: none;
@@ -35,7 +39,7 @@ fieldset:last-of-type{
     border:none;
 }
 a:visited{
-    color:gray;
+    color:cyan;
 
 }
 a:active{
@@ -45,7 +49,7 @@ a:hover{
     color:blanchedalmond;
 }
 a:link{
-    color:black
+    color:red;
 }
 textarea{
     display:block;
